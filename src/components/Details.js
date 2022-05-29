@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from "react-redux";
 import currencyFormatter from 'currency-formatter';
 import { BsDash, BsPlus } from "react-icons/bs";
+import productImages from './productImages'
 
 const Details = () => {
     const [quantity, setQuantity] = useState(1)
@@ -21,7 +22,7 @@ const Details = () => {
             <div className="row">
                 <div className="col-6">
                     <div className="details_image">
-                        <img src={`/images/${product.image}`} alt="" />
+                    <img src={productImages[`Image_${product.id}`]} alt="Img Name" />
                     </div>
                 </div>
                 <div className="col-6" >

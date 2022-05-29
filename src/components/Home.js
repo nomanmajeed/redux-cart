@@ -11,6 +11,7 @@ const Home = () => {
         <div>
             <Header />
             <div className="container">
+                <h1 className="products-header">Available Products</h1>
                 <div className="row">
                     {products.map(product => (
                         <div className="col-3" key={product.id}>
