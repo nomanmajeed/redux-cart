@@ -3,6 +3,7 @@ import Header from './Header';
 import { useSelector } from 'react-redux';
 import currencyFormatter from 'currency-formatter';
 import { Link } from 'react-router-dom';
+import productImages from './productImages'
 
 const Home = () => {
     const { products } = useSelector(state => state.ProductsReducer);
@@ -16,7 +17,7 @@ const Home = () => {
                             <div className="product">
                                 <div className="product_img">
                                     <Link to={`/details/${product.id}`}>
-                                        <img src={`/images/${product.image}`} alt="Img Name" />
+                                        <img src={productImages[`Image_${product.id}`]} alt="Img Name" />
                                     </Link>
                                 </div>
                                 <div className="product_name">

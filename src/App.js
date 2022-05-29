@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom';
 import { Provider } from "react-redux";
 import store from "./store";
 import './App.css';
@@ -10,12 +10,14 @@ import Details from './components/Details';
 function App() {
   return (
     <Router>
-      <Provider store={store}>
-        <Nav />
-        <Route path="/" exact component={Home} />
-        <Route path="/cart" exact component={Cart} />
-        <Route path="/details/:id" exact component={Details} />
-      </Provider>
+        <Provider store={store}>
+          <Nav />
+          <Routes>
+          <Route path="/" exact element={<Home />} />
+            <Route path="/cart" exact element={<Cart />} />
+            <Route path="/details/:id" exact element={<Details />} />
+          </Routes>
+        </Provider>      
     </Router>
   );
 }

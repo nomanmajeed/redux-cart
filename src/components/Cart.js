@@ -2,6 +2,8 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import currencyFormatter from 'currency-formatter';
 import { BsDash, BsPlus, BsTrash } from "react-icons/bs";
+import productImages from './productImages'
+
 
 const Cart = () => {
     const { products, totalQuantities, totalPrice } = useSelector(state => state.CartReducer)
@@ -9,8 +11,9 @@ const Cart = () => {
     return (
         <div className="cart">
             <div className="container">
-                <h3>Your Cart</h3>
+            
                 {products.length > 0 ? <>
+                    <h3>Your Cart</h3>
                     <div className="row">
                         <div className="col-9">
                             <div className="cart_heading">
@@ -27,7 +30,7 @@ const Cart = () => {
                                 <div className="row vertical_align" key={product.id}>
                                     <div className="col-2">
                                         <div className="cart_image">
-                                            <img src={`/images/${product.image}`} alt="" />
+                                            <img src={productImages[`Image_${product.id}`]} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-2">
@@ -89,7 +92,9 @@ const Cart = () => {
                             </div>
                         </div>
                     </div>
-                </> : <></>}
+                </> : <>
+                    <h3 style={{marginTop: '1rem'}}>Your Cart is empty</h3>
+                </>}
             </div>
         </div>
     );
