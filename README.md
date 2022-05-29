@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="github images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">Mini Redux Cart</h3>
 
-## Available Scripts
+  <p align="center">
+    A small Cart App that shows how information is displayed and how to add products to cart and manage cart entries for smoth checkout.
+    <br />
+    <a href="https://github.com/nomanmajeed/redux-cart"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    ·
+    <a href="https://github.com/nomanmajeed/redux-cart/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/nomanmajeed/redux-cart/issues">Request Feature</a>
+  </p>
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="github images/home.png" alt="image">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img src="github images/cart.png" alt="image">
 
-### `npm test`
+<img src="github images/checkout.png" alt="image">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+There are many great ecoomerce apps available on internet developed by many experienced developers. Inspiring from them I also tried to develop a simple ecooerce cart app that somehow demonstrate  how information is displayed and how to add products to cart and manage cart entries for smoth checkout.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+App Story:
+* The App is built for learning purpose and for boosting my web development skills specially in React/Redux.
+* The Data used in this app is dummy and harcoded. See store/reducer/ProductsReducer.js in sourcecode.
+* You App mainly focuses on DRY principles of Web Development. :
+* I enjoyed it's development smile:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Of course, no one perfect and I feel myself still in learning phase of software development. There might be any zig zag flow of data and any bugs in this app. Feel free to create issues if you find any bug or have some suggestion
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
-### `npm run eject`
+### Built With
+This section should list major framework/add-ons/plugins used in this project.
+* [React](https://reactjs.org/)
+* [Redux](https://redux.js.org/)
+* [CSS3](https://www.w3schools.com/css/css_intro.asp)
+* [Html5](https://www.w3schools.com/html/)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- ROADMAP -->
+## Roadmap
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+See the [open issues](https://github.com/nomanmajeed/redux-cart/issues) for a list of proposed features (and known issues).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- CONTRIBUTING -->
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-### Code Splitting
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- LICENSE -->
+## License
 
-### Making a Progressive Web App
+Distributed under the my own License. See `LICENSE` for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- CONTACT -->
+## Contact
 
-### Deployment
+Noman Majeed - [@twitter](https://twitter.com/nomanmajeed986) - nomanmajeed986@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Project Link: [https://github.com/nomanmajeed/redux-cart](https://github.com/nomanmajeed/laraflix)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Acknowledgements
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [GitHub Pages](https://pages.github.com)
+* [React](https://reactjs.org/)
+* [Redux](https://redux.js.org/)
+* [CSS3](https://www.w3schools.com/css/css_intro.asp)
+* [Html5](https://www.w3schools.com/html/)
+
+<!-- ACKNOWLEDGEMENTS 
+## Acknowledgements
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Img Shields](https://shields.io)
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Pages](https://pages.github.com)
+* [Animate.css](https://daneden.github.io/animate.css)
+* [Loaders.css](https://connoratherton.com/loaders)
+* [Slick Carousel](https://kenwheeler.github.io/slick)
+* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
+* [Sticky Kit](http://leafo.net/sticky-kit)
+* [JVectorMap](http://jvectormap.com)
+* [Font Awesome](https://fontawesome.com)
+-->
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links 
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png -->
