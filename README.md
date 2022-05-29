@@ -24,11 +24,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="github images//home.PNG" alt="image">
+<img src="github images/home.png" alt="image">
 
-<img src="github images//cart.PNG" alt="image">
+<img src="github images/cart.png" alt="image">
 
-<img src="github images//checkout.PNG" alt="image">
+<img src="github images/checkout.png" alt="image">
 
 
 There are many great ecoomerce apps available on internet developed by many experienced developers. Inspiring from them I also tried to develop a simple ecooerce cart app that somehow demonstrate  how information is displayed and how to add products to cart and manage cart entries for smoth checkout.
